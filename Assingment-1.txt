@@ -1,0 +1,79 @@
+(1) Are the HTML tags and elements the same thing?
+->  No, they are not the same. HTML tags are used to define elements within an HTML document. Elements consist of a start tag, content, and an end tag (if applicable), while tags refer to the specific markup used to create those elements.
+
+
+(2) What are tags and attributes in HTML?
+->  Tags: Tags are keywords surrounded by angle brackets (e.g., <div>, <p>) that define the structure and appearance of content in an HTML document.
+->  Attributes: Attributes provide additional information about HTML elements. They are always included in the start tag and are written as name-value pairs (e.g., class="example").
+
+
+(3) What are void elements in HTML?
+->  Void elements are those that do not have any content, and thus do not require a closing tag. They self-close in the opening tag itself. Examples include <img>, <br>, <input>, <meta>, etc.
+
+
+(4) What are HTML Entities?
+->  HTML Entities are codes that represent special characters that cannot be easily typed or displayed normally in HTML. For example, &lt; represents < (less than) &amp; represents & (ampersand), etc.
+
+
+(5) What are different types of lists in HTML?
+->  HTML supports three types of lists: <ul> (unordered list), <ol> (ordered list), and <dl> (definition list).
+
+
+(6) What is the ‘class’ attribute in HTML?
+->  The class attribute is used to specify one or more class names for an HTML element. Classes are typically used in CSS to style multiple elements with the same style.
+
+
+(7) What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+->  The id attribute specifies a unique identifier for an HTML element, while the class attribute can be used to group multiple elements together that share the same styling or behavioral semantics.
+
+
+(8) What are the various formatting tags in HTML?
+->  Formatting tags in HTML include <b>, <strong>, <i>, <em>, <u>, <s>, <sup>, <sub>, etc., which are used to apply various styles and meanings to text.
+
+
+(9) How is Cell Padding different from Cell Spacing?
+->  Cell Padding (cellpadding) in HTML specifies the space between the cell content and the cell border. Cell Spacing (cellspacing) specifies the space between cells in a table.
+
+
+(10) How can we club two or more rows or columns into a single row or column in an HTML table?
+->  This can be achieved using the colspan attribute for columns or the rowspan attribute for rows within the <td> or <th> tags in a table.
+
+
+(11) What is the difference between a block-level element and an inline element?
+->  Block-level elements typically start on a new line and take up the full width available, while inline elements do not start on a new line and only take up as much width as necessary.
+
+
+(12) How to create a Hyperlink in HTML?
+->  Use the <a> tag with the href attribute to create a hyperlink. Example: <a href="https://example.com">Link text</a>.
+
+
+(13) What is the use of an iframe tag?
+->  The <iframe> tag is used to embed another document within the current HTML document. It is commonly used for embedding maps, videos, or other external content.
+
+
+(14) What is the use of a span tag? Explain with example?
+->  The <span> tag is used to group inline elements for styling purposes without any semantic meaning. Example: <p>This is a <span style="color: red;">red</span> word.</p>.
+
+
+(15) How to insert a picture into a background image of a web page?
+->  Use CSS to set a background image for an element. Example: body { background-image: url('image.jpg'); }.
+
+
+(16) How are active links different from normal links?
+->  Active links typically refer to links that are currently selected or being interacted with, often styled differently to indicate their active state.
+
+
+(17) What are the different tags to separate sections of text?
+->  Tags like <div>, <section>, <article>, <p>, etc., are used to structure and separate sections of text within an HTML document.
+
+
+(18) What is SVG?
+->  SVG (Scalable Vector Graphics) is an XML-based vector image format used to define graphics for the web. It is commonly used for icons, logos, illustrations, and interactive graphics.
+
+
+(19) What is the difference between HTML and XHTML?
+->  XHTML is an XML-based version of HTML that follows stricter rules and syntax requirements. It requires documents to be well-formed and closes all tags properly.
+
+
+(20) What are logical and physical tags in HTML?
+->  In HTML, logical tags describe the meaning or structure of content (e.g., <header>, <nav>, <article>), while physical tags describe how content should appear (e.g., <b>, <i>, <font>). It's generally recommended to use logical tags and style them with CSS for presentation.
